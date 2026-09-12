@@ -25,7 +25,7 @@ void insertElement(struct Node **head, int val){//ek function bnaya h element in
      }
      temp->next = newNode;
 }
-void printlist(struct Node *head){
+void printlist(struct Node *head){//list print krane k liye hote hain
     struct Node *temp = head;
     while(temp!=NULL){
         printf("%d->",temp->data);

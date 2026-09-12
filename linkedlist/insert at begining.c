@@ -20,6 +20,7 @@ void insertElement(struct Node **head, int val) {
     while(temp->next != NULL) {
         temp = temp->next;
     }
+    
     temp->next = newNode;
 }
 // 13 ko beginning me insert karne ka function
